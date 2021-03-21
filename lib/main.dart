@@ -25,6 +25,7 @@ class _MainPageState extends State<MainPage> {
   @override
   void initState() {
     super.initState();
+
   }
 
   @override
@@ -38,6 +39,7 @@ class _MainPageState extends State<MainPage> {
             children: [
               Image.asset(
                 'assets/NBTC.png',
+                
                 fit: BoxFit.contain,
                 height: 50,
               ),
